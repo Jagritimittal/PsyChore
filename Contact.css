@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    margin: auto;
+    background-color: #fff9e6;
+    font-family: 'Philosopher';
+}
+    
+.Content {
+    position: relative;
+    background-size: contain;
+    width: 100%;
+}
+
+.NavBar {
+    border-top: 2px solid #330066;
+    border-bottom: 2px solid #330066;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.Nav-right {
+    float: right;
+}
+
+.Element {
+    color: #330066;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.Element:hover {
+    font-size: 22px;
+    border: 2px solid #330066;
+    background: #e5ccff;
+    color: #330066;
+}
+
+.Name {
+    text-decoration: none;
+    font-size: 22px;
+    color: #330066;
+    background-color: #fff9e6;
+    float: left;
+    padding-left: 30px;
+    font-family: 'Imperial Script';
+}
+
+.footerP {
+    border-top: 2px solid #330066;
+    color: #330066;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.footerH {
+    color: #330066;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Data h1{
+    color: #330066;
+    text-align: center;
+    font-family: 'Imperial script';
+    font-size: 50px;
+}
+
+.helpline {
+    background-color: #eddcff;
+    color: #330066;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.column {
+    float: left;
+}
+
+.row {
+    padding-left: 250px;
+    padding-right: 200px;
+}
+
+.left {
+    width: 630px; 
+    padding-right: 40px;
+}
+  
+.right {
+    padding-top: 38px;
+    width: 300px;
+    padding-left: 50px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}  
+
+.column2 {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 10px;
+}
+
+.container {
+    padding: 10px;
+}
+  
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    background: #eddcff;
+}
+
+form {
+    background-color: #e5ccff;
+    width: 97%;
+    padding: 20px;
+    text-align: center;
+    border-left: 3px solid #180030;
+}
+  
+#ta {
+    background-color: #eddcff;
+}
+
+.registerbtn {
+    background-color: #330066;
+    color: #eddcff;
+    font-size: 16px;
+    padding: 12px 17px;
+    margin: 5px 0;
+    border: #330066;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.8;
+}
+  
+.registerbtn:hover {
+    opacity:1;
+}
+
+.right p {
+    padding-left: 15px;
+    color: #330066;
+}
+
+.right img {
+    border-radius: 50%;
+}

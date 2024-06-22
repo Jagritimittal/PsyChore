@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Secret sessions</title>
+        <link rel="icon" type="image/x-icon" href="Favicon.jpg">
+        <link rel="stylesheet" href="Contact.css">
+        <link href="https://fonts.googleapis.com/css?family=Imperial Script" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    </head>
+<body>
+    <div class="Content">
+        <div class="NavBar">
+            <a href="Homepage.html" class="Name">PsyCh ore</a>
+            <div class="Nav-right">
+                <a href="Homepage.html" class="Element">Home</a>
+                <a href="Sessions.html" class="Element">Sessions</a>
+                <a href="Therapy.html" class="Element">PsychoTherapy</a>
+                <a href="FunCorner.html" class="Element">Fun Zone</a>
+                <a href="Shop.html" class="Element">Shop</a>
+                <a href="Contact.html" class="Element">Contact</a>
+            </div>
+        </div>     
+
+        <div class="helpline">
+            <marquee onmouseover="stop()" onmouseout="start()">
+            <p class="tag">
+                <b>India's Helpline numbers-</b>
+                <b>Suicide</b> 9152987821
+                <b>Emergency</b> 112,
+                <b>Nepal's Helpline numbers-</b>
+                <b>Suicide</b> 1166
+                <b>Emergency</b> 100,
+                <b>China's Helpline numbers-</b>
+                <b>Suicide</b> 0755-25629459
+                <b>Emergency</b> 119,
+                <b>Singapore's Helpline numbers-</b> 
+                <b>Suicide</b> 1-767
+                <b>Emergency</b> 999,
+                <b>US's Helpline numbers-</b> 
+                <b>Suicide</b> 998
+                <b>Emergency</b> 911,
+                <b>Ireland's Helpline numbers-</b> 
+                <b>Suicide</b> +4408457909090
+                <b>Emergency</b> 116123,
+                <b>Egypt's Helpline numbers-</b> 
+                <b>Suicide</b> 131114
+                <b>Emergency</b> 122,
+                <b>Hong Kong's Helpline numbers-</b>
+                <b>Suicide</b> 852 2382 0000
+                <b>Emergency</b> 999
+            </p>
+            </marquee>
+        </div>
+
+        <div class="Data">
+            <h1>Connect with us</h1>
+        </div>
+
+        <div class="row">
+            <div class="column left">
+                <form action="" method="post" name="f">
+                    <div class="container">
+                        <label for="Name">Name:</label>
+                        <input type="text" name="name"><br><br>
+                        <label for="Email">Email-id:</label>
+                        <input type="text" name="email"><br><br>
+                        <label for="msg">Message:</label><br><br>
+                        <textarea name="msg" id="ta" placeholder="Write your message here." cols="77" rows="5" type="text"></textarea>
+                        <br><br>
+                        <button type="submit" class="registerbtn">Submit</button>
+                      </div>
+                </form>
+            </div>
+            <div class="column right">
+                <img src="Favicon.jpg" width="90%" height="90%" alt="">
+                <p>connect@PsyChore.com</p>
+                <p>(+91) 1422-1007</p>
+            </div>
+        </div>
+
+        <div class="Bottom">
+            <p class="footerP">©2023 All Rights Reserved, PsyCh ore®</p>
+            <h2 class="footerH">PsyCh ore</h2>
+        </div>
+    </div>
+    <script>
+        $('form').on("submit", function(){
+                    var name=$('[name="name"]').val();
+                    if(name==null||name=="")
+                    {
+                        alert("Name can't be blank.");
+                    }
+                    //To validate email-id
+                    var email=$('[email="email"]').val();
+                    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))
+                    {
+                    }
+                    else
+                    {  
+                        alert("You have entered an invalid email address!")  
+                    } 
+                }
+            );
+    </script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    margin: auto;
+    background-color: #ffe6e6;
+    font-family: 'Philosopher';
+}
+    
+.Content {
+    position: relative;
+    background-size: contain;
+    width: 100%;
+}
+
+.NavBar {
+    border-top: 2px solid #4d0000;
+    border-bottom: 2px solid #4d0000;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.Nav-right {
+    float: right;
+}
+
+.Element {
+    color: #4d0000;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.Element:hover {
+    font-size: 22px;
+    border: 2px solid #4d0000;
+    background: #ffbf00;
+    color: #ffe6e6;
+}
+
+.Name {
+    text-decoration: none;
+    font-size: 22px;
+    color: #4d0000;
+    background-color: #ffe6e6;
+    float: left;
+    padding-left: 30px;
+    font-family: 'Imperial Script', cursive;
+}
+
+.footerP {
+    border-top: 2px solid #4d0000;
+    color: #4d0000;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.footerH {
+    color: #4d0000;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Data h1{
+    color: #4d0000;
+    text-align: center;
+    font-family: 'Imperial script';
+    font-size: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    grid-gap: 5px;
+}
+
+.grid-item {
+    background-color: #ffbf00;
+    border: 2px solid #4d0000;
+    padding: 8px;
+    /* font-size: 30px; */
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 550px;
+}
+
+img:hover {
+    /* width: 450px;
+    height: 700px; */
+    padding: 20px;
+}

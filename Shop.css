@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    margin: auto;
+    background-color: rgb(255, 224, 250);
+    font-family: 'Philosopher';
+}
+    
+.Content {
+    position: relative;
+    background-size: contain;
+    width: 100%;
+}
+
+.NavBar {
+    border-top: 2px solid rgb(252, 186, 3);
+    border-bottom: 2px solid rgb(252, 186, 3);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.Nav-right {
+    float: right;
+}
+
+.Element {
+    color: seagreen;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.Element:hover {
+    font-size: 22px;
+    border: 2px solid seagreen;
+    background: rgb(252, 186, 3);
+    color: rgb(255, 224, 250);
+}
+
+.Name {
+    text-decoration: none;
+    font-size: 22px;
+    color: seagreen;
+    background-color: rgb(255, 224, 250);
+    float: left;
+    padding-left: 30px;
+    font-family: 'Imperial Script', cursive;
+}
+
+.footerP {
+    border-top: 2px solid rgb(252, 186, 3);
+    color: seagreen;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.footerH {
+    color: seagreen;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Data h1{
+    color: rgb(252, 186, 3);
+    text-align: center;
+    font-family: 'Imperial script';
+    font-size: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    background-color: rgb(255, 224, 250);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 13px;
+    color: rgb(255, 224, 250);
+}
+  
+.grid-container > div {
+    background-color: rgb(252, 186, 3);
+    text-align: center;
+    height: 590px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.grid-container > div img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 350px;
+    width: 370px;
+    border-radius: 13%;
+}
+
+.grid-container > div a {
+    text-decoration: underline solid seagreen 1px;
+    background-color: rgb(252, 186, 3);
+    color: rgb(255, 224, 250);
+    font-size: 20px;
+    color: seagreen;
+}
+
+.marquee {
+    background-color: seagreen;
+    color: rgb(255, 224, 250);
+    padding: 3px;
+    font-style: italic;
+    font-size: 13px;
+    border: 2px solid seagreen;
+}
+
+.grid-container > div:hover {
+    border: 3px solid seagreen;
+    padding: 20px;
+}
+
+.grid-container > div a:hover {
+    background-color: rgb(255, 224, 250);
+    color: rgb(252, 186, 3);
+}

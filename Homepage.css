@@ -1,0 +1,440 @@
+body {
+    margin: auto;
+    background-color: rgb(232, 232, 255);
+    font-family: 'Philosopher';
+}
+
+.content {
+    position: relative;
+    background-size: contain;
+}
+
+.head {
+    position: absolute;
+    font-size: 7em;
+    font-family: 'Imperial Script';
+    text-align: center;
+    color: rgb(0, 44, 0);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+img {
+    height: 600px;
+    width: 1519px;
+    opacity: 85%;
+}
+
+.navbar { 
+    text-align: center;
+    display: block;
+    text-align: center;
+    padding: 8px 15px;
+    background-color: rgb(232, 232, 255);
+}
+  
+.navbar a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(0, 44, 0);
+    padding-left: 45px;
+    padding-right: 45px;
+    text-decoration: none;
+    font-size: 19px;
+}
+  
+.navbar a:hover {
+    background-color: rgb(0, 44, 0);
+    color: rgb(232, 232, 255);
+    font-size: 23px;
+}
+
+iframe {
+    float: right;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+.footer{
+    color: rgb(0, 44, 0);
+    text-align: center;
+}
+
+.marquee {
+    background-color: rgb(0, 44, 0);
+    color: rgb(232, 232, 255);
+    font-style: italic;
+    font-size: 15px;
+    padding: 3px;
+    border: 2px solid rgb(232, 232, 255);
+}
+
+.introP {
+    border-radius: 50%;
+    height: 20%;
+    width: 20%;
+    float: right;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.firstSection {
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.intro {
+    padding-right: 10px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+.secondSection {
+    text-align: center;
+    position: relative;
+    background-size: contain;
+    padding-right: 68px;
+    padding-left: 68px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(0, 44, 0);
+}
+
+.mainhead {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 40%;
+    font-size: 35px;
+    right: 75%;
+}
+
+.secondSection marquee {
+    font-size: 2em;
+    color: rgb(232, 232, 255);
+    background-color: rgb(0, 44, 0);
+    top: 45%;
+    left: 80%;
+    position: absolute;
+    transform: rotate(90deg);
+    font-style: italic;
+}
+
+.thirdSection {
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(0, 44, 0);
+    padding-bottom: 30px;
+    
+}
+
+.mediT {
+    text-align: center;
+}
+
+.mediST {
+    font-style: italic;
+    text-align: center;
+}
+
+.vdSec {
+    flex: 33.3%;
+    padding: 8px;
+}
+
+#more {
+    display: none;
+}
+
+.secondSection ul, .secondSection li{
+    list-style:none;
+}
+
+.secondSection ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.secondSection ul li a{
+    text-decoration:none;
+    background-color:rgb(243, 159, 173);
+    color:rgb(0, 44, 0);
+    display:block;
+    height:17em;
+    width:17em;
+    padding:1em;
+    box-shadow: 5px 5px 7px rgba(57, 57, 57, 0.7);
+}
+
+.secondSection ul li{
+    margin:1em;
+    border: 3px solid rgb(0, 44, 0);
+}
+
+.secondSection p {
+    font-family: 'Reenie Beanie';
+    font-size: 2rem;
+}
+
+.secondSection ul li:nth-child(even) a{
+    background-color:pink;
+    transform:rotate(3deg);
+    position:relative;
+    top:5px;
+}
+
+.secondSection ul li:nth-child(3n) a{
+    background-color:rgb(255, 165, 180);
+    transform:rotate(-3deg);
+    position:relative;
+    top:-5px;
+}
+  
+.secondSection ul li:nth-child(5n) a{
+    background-color:rgb(255, 209, 217);
+    transform:rotate(5deg);
+    position:relative;
+    top:-10px;
+}
+
+.secondSection ul li a:hover,.secondSection ul li a:focus{
+    box-shadow: 10px 10px 7px rgba(30, 30, 30, 0.7);
+    transform: scale(1.25);
+    position: relative;
+    height:17.5em;
+    width:17.5em;
+    z-index: 1;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(232, 232, 255);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgb(0, 44, 0);
+}
+
+.text {
+    color: rgb(232, 232, 255);
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+
+.fourthSection {
+    padding-left: 60px;
+    border-top: 2px solid rgb(0, 44, 0);
+    border-bottom: 2px solid rgb(0, 44, 0);
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    height: 550px;
+}
+
+.gallery {
+    margin: 10px;
+    float: left;
+    width: 260px;
+}
+  
+.gallery img {
+    width: 100%;
+    height: 400px;
+}
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 260px;
+    height: 400px;
+}
+  
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 10px 7px rgba(77, 77, 77, 0.7);
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+  
+.flip-card-front {
+    background-color: rgb(200, 200, 255);
+    color: rgb(0, 44, 0);
+}
+  
+.flip-card-back {
+    background-color: rgb(0, 44, 0);
+    color: rgb(232, 232, 255);
+    transform: rotateY(180deg);
+}
+
+.l {
+    color: rgb(200, 200, 255)
+}
+
+.headA {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.fifthSection {
+    border-bottom: 3px solid rgb(0, 44, 0);
+    padding-bottom: 30px; 
+    box-sizing: border-box;
+}
+
+form {
+    background-color: rgb(200, 200, 255);
+    width: 97%;
+    padding: 20px;
+    text-align: center;
+    border-left: 3px solid rgb(0, 44, 0);
+}
+
+.fifthSection .headT {
+    font-size: 50px;
+}
+
+input[type=text], input[type=email] {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: 1px solid rgb(232, 232, 255);
+    background: rgb(232, 232, 255);
+}
+  
+input[type=text]:focus, input[type=email]:focus {
+    background-color: rgb(146, 145, 248);
+    color: rgb(232, 232, 255);
+}
+  
+.signupbtn {
+    background-color: rgb(232, 232, 255);
+    color: rgb(0, 44, 0);
+    font-size: 16px;
+    padding: 12px 17px;
+    margin: 5px 0;
+    border: black;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.8;
+}
+  
+.signupbtn:hover {
+    opacity:1;
+}
+
+.left {
+    float: left;
+    width: 60%;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.right {
+    float: right;
+    width: 30%;
+    padding-right: 60px;
+}
+
+.fifthSection:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.comic {
+    width: 90%;
+    height: 580px;
+    padding-left: 50px;
+}
+
+.sixthSection {
+    padding-left: 470px;
+    padding-right: 470px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(0, 44, 0);
+}
+
+.sixthSection img {
+    width: 500px;
+    height: 500px;
+    border-left: 5px solid rgb(0, 44, 0);
+    border-right: 5px solid rgb(0, 44, 0);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sixthSection h1 {
+    font-family: "imperial script";
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 44, 0);
+}
+
+.sixthSection p {
+    text-align: center;
+    color: rgb(0, 44, 0);
+}
